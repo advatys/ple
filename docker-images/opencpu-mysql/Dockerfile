@@ -4,7 +4,7 @@ FROM opencpu/base
 RUN \
   apt-get update && \
   apt-get -y dist-upgrade && \
-  apt-get install -y libmariadb-client-lgpl-dev
+  apt-get install -y libmariadbclient-dev
 
 # Apache ports
 EXPOSE 80
