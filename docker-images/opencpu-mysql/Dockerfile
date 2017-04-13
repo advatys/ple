@@ -1,4 +1,4 @@
-FROM adgdigital/opencpu:base-1.0
+FROM opencpu/base
 
 # Install.
 RUN \
