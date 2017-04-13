@@ -1,6 +1,5 @@
 FROM ubuntu:16.04
 
-# Install.
 RUN \
   apt-get update && \
   apt-get -y dist-upgrade && \
