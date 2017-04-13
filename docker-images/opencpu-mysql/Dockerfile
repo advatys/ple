@@ -4,7 +4,7 @@ FROM opencpu/base
 RUN \
   apt-get update && \
   apt-get -y dist-upgrade && \
-  apt-get install -y libmariadbclient-dev
+  apt-get install -y libmariadbclient-dev libcairo2-dev
 
 # Apache ports
 EXPOSE 80
